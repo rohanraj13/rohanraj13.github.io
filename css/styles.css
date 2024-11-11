@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Garamond;
     color: white;
@@ -17,33 +21,35 @@ header {
     text-align: center;
 }
 
-header nav {
+nav {
     display: flex;
+    top: 0;
     justify-content: center;
     align-items: center;
-    width: 100vw;
+    position: fixed;
+    width: 100%;
     height: 60px; 
     box-sizing: border-box;
     background-color: #0d2011; 
 }
 
-header nav ul {
+nav ul {
     justify-content: center;
     align-items: center;
     padding: 0;
 }
 
-header nav ul li {
+nav ul li {
     display: inline;
     margin: 40px;
 }
 
-header nav ul li a {
+nav ul li a {
     color: #fff;
     text-decoration: none;
 }
 
-header nav ul li a:hover {
+nav ul li a:hover {
     color: #2d802d; 
 }
 
@@ -60,6 +66,7 @@ main {
 }
 
 section {
+    padding-top: 60px;
     margin-bottom: 40px;
 }
 
@@ -86,14 +93,21 @@ li {
 .inline-box {
     display: flex;
     justify-content: center; 
+    align-items: center;
     gap: 10px;
     padding: 0;
     list-style-type: none;
 }
 
 .inline-box li {
+    display: flex;
+    height: 75px;
+    width: 150px;
     padding: 20px;
     border: 1px solid #ddd;
+    justify-content: center; 
+    align-items: center;
+    flex-wrap: wrap;
     text-align: center;
 }
 
