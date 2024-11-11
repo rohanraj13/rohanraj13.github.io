@@ -19,10 +19,10 @@
 
     <!-- Header  -->
     <header>
-        <div class="header-content">
+        <ul class="header-content">
             <h1>Rohan Rajagopalan</h1>
             <p class="header-paragraph">Data Engineering & Full-Stack Development</p>
-        </div>
+        </ul>
     </header>
     
 
@@ -30,6 +30,13 @@
     <main>
         <section id="about-me">
             <h2>About Me</h2>
+
+            <ul class="circular-image-list">
+                <li class="circular-image-box">
+                    <img src="img/rohan.jpg" alt="Placeholder Image 1" class="circular-image">
+                </li>
+            </ul>
+
             <p class="body-paragraph center">Hi! I am Rohan, a developer with a goal of creating innovative and intuitive solutions. <br>
 			My journey in education and my career has equipped me with a diverse set of skills in Data Engineering and Full-Stack Development. <br>
             I always try to learn something new everyday, whether it be in the discipline of computer science or the pursuit of knowledge
@@ -174,19 +181,11 @@
 
 
     <footer>
-        <p>Version 1.0.1</p>
+        <p>Version 1.0.2</p>
         <p>&copy; 2024 Rohan Rajagopalan</p>
     </footer>
 
-    <script>
-        function copyEmail(email) {
-            navigator.clipboard.writeText(email).then(() => {
-                alert("Email address copied to clipboard: " + email);
-            }).catch(err => {
-                console.error('Failed to copy text: ', err);
-            });
-        }
-    </script>
+    <script src="js/basic.js"></script>
 
 </body>
 </html>
