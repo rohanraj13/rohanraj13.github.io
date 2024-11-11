@@ -3,71 +3,190 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tech Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Rohan Rajagopalan</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+
+    <!-- Header  -->
     <header>
         <nav>
             <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li class="header-paragraph"><a href="#about-me">About Me</a></li>
+                <li class="header-paragraph"><a href="#skills">Skills</a></li>
+                <li class="header-paragraph"><a href="#projects">Projects</a></li>
+                <li class="header-paragraph"><a href="#education">Education</a></li>
+                <li class="header-paragraph"><a href="#contact">Contact</a></li>
             </ul>
         </nav>
         <div class="header-content">
-            <h1>Welcome to My Portfolio</h1>
-            <p>Showcasing my work and skills in computer science</p>
+            <h1>Rohan Rajagopalan</h1>
+            <p class="header-paragraph">Data Engineering & Full-Stack Development</p>
         </div>
     </header>
     
-    <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Hello! I am Rohan, a passionate computer scientist with a knack for developing innovative solutions. 
-			My journey has equipped me with a diverse set of skills in Data Engineering, Data Science, and Full-Stack Development.</p>
-        </section>
 
-        <section id="projects">
-            <h2>Projects</h2>
-            <div class="project">
-                <h3>Tout MVP</h3>
-                <p>Currently the project manager developing an iOS platform app that improves discoverability for verified reviews. I set up all AWS Components including EC2, RDS, VPC, IAM, and am in charge of developing multiple front end pages in Swift. The project started as my UConn senior design project, and now the app is currently in testing and alpha development.</p>
-            </div>
-            <div class="project">
-                <h3>Project 2</h3>
-                <p>Description of Project 2. Highlight the technologies used and the challenges overcome.</p>
-                <a href="link-to-project2">View Project</a>
-            </div>
-            <!-- Add more projects as needed -->
+
+    <main>
+        <section id="about-me">
+            <h2>About Me</h2>
+            <p class="body-paragraph center">Hi! I am Rohan, a developer with a goal of creating innovative and intuitive solutions. <br>
+			My journey in education and my career has equipped me with a diverse set of skills in Data Engineering and Full-Stack Development. <br>
+            I always try to learn something new everyday, whether it be in the discipline of computer science or the pursuit of knowledge
+        </p>
         </section>
 
         <section id="skills">
             <h2>Skills</h2>
-            <ul>
-                <li>Programming Languages: Python, SQL, C++, Swift, HTML/CSS, JavaScript</li>
-                <li>Packages: NumPy, Pandas, Matplotlib, Keras, Scikit-learn, TensorFlow, BeautifulSoup, PySpark</li>
-                <li>Technologies: Jupyter Notebooks, Git, Snowflake, AWS, Apache Spark & Hive, Workato</li>
-                <li>Coursework: Big Data Analytics, Relational Databases, Artificial Intelligence, Machine Learning</li>
-				<li>Certifications: AWS Certified Cloud Practitioner</li>
-            </ul>
+
+            <div class="center">
+                <h3>General</h3>
+                <ul class="inline-box">
+                    <li>Full-Stack Development</li>
+                    <li>Data Engineering</li>
+                    <li>Data Science Principles</li>
+                </ul>
+            </div>
+            
+            <div class="center">
+                <h3>Programming Languages</h3>
+                    <ul class="inline-box">
+                        <li>Python</li>
+                        <li>SQL</li>
+                        <li>HTML/CSS</li>
+                        <li>JavaScript</li>
+                        <li>Swift</li>
+                    </ul>
+            </div>
+
+            <div class="center">
+                <h3>Python Packages</h3>
+                <ul class="inline-box">
+                    <li>NumPy</li>
+                    <li>Pandas</li>
+                    <li>Matplotlib</li>
+                    <li>Keras</li>
+                    <li>Scikit-learn</li>
+                    <li>TensorFlow</li>
+                    <li>BeautifulSoup</li>
+                </ul>
+            </div>
+
+            <div class="center">
+                <h3>Technologies</h3>
+                <ul class="inline-box">
+                    <li>AWS</li>
+                    <li>Git</li>
+                    <li>Snowflake</li>
+                </ul>
+            </div>
+
+            <div class="center">
+                <h3>Certifications</h3>
+                <ul class="inline-box">
+                    <li><a href="https://www.credly.com/badges/cf39babe-b2e9-4012-8648-2c7bd15a237b/linked_in_profile" target="_blank">AWS Certified Cloud Practitioner</a></li>
+                </ul>
+             </div>
+
+
+
+
+        <section id="projects">
+            <h2>Projects</h2> 
+            <div class="project">
+                <h3 class="center">Tout</h3>
+                <p class="body-paragraph">
+                    I am currently developing an iOS platform app that improves discoverability for verified reviews for <a href="https://www.linkedin.com/company/tout-technologies-llc/" target="_blank">Tout Technologies LLC</a>. 
+                    I set up all AWS Components including EC2, RDS, VPC, IAM, and was charge of developing multiple front end pages in Swift. 
+                    The project started as my UConn School of Engineering Senior Design Project, and now the app is currently still in active development.
+                    As of November 2024, I am a contract worker with a teammate jointly working on full-stack development of the app.
+                </p>
+            </div> 
+
+
+            <div class="project">
+                <h3 class="center">Portfolio Website</h3>
+                <p class="body-paragraph center">
+                    This is the website you are currently on! 
+                    <br> 
+                    Hosted on github.io and developed using HTML/CSS/JavaScript
+                </p>
+            </div>
+        </section> 
+        <br>
+
+
+        <section id="education">
+            <div class="center">
+                <h2>Education</h2>
+                <h3>University of Connecticut</h3>
+                <h3>Bachelor of Science, Computer Science - May 2024</h3>
+                <h3>Concentration in Computational Data Analytics</h3>
+            </div> <br>
+
+            <div class="center">
+                <h4 >General Computer Science Coursework</h4>
+                <ul class="inline-box">
+                    <li>Data Structures and Object-Oriented Design</li>
+                    <li>Algorithms and Complexity</li>
+                    <li>Introduction to Computer Architecture</li>
+                    <li>C++ Essentials</li>
+                </ul>
+            </div>
+
+            <div class="center">
+                <h4>Computational Data Analytics Coursework</h4>
+                <ul class="inline-box">
+                    <li>Principles of Databases</li>
+                    <li>Artificial Intelligence</li>
+                    <li>Big Data Analytics</li>
+                    <li>Introduction to Machine Learning</li>
+                    <li>Advanced Data Analytics with Python</li>
+                </ul>
+            </div>
+            
+           
         </section>
 
         <section id="contact">
-            <h2>Contact</h2>
-            <p>Feel free to reach out to me via the following methods:</p>
-            <ul>
-                <li>Email: <a href="mailto:rohan.raj0013@gmail.com">rohan.raj0013@gmail.com</a></li>
-                <li>LinkedIn: <a href="https://www.linkedin.com/in/rohanrajagopalan/">LinkedIn Profile</a></li>
-                <li>GitHub: <a href="https://github.com/rohanraj13">GitHub Profile</a></li>
-                <!-- Add other contact methods as needed -->
-            </ul>
+            <div class="center">
+                <h2>Contact</h2>
+                <div class="image-container">
+                    <div class="image-box">
+                        <a href="javascript:void(0);" onclick="copyEmail('rohan.raj0013@gmail.com')">
+                            <img src="img/email-white.png" alt="Email Address">
+                        </a>
+                    </div>
+                    <div class="image-box">
+                        <a href="https://github.com/rohanraj13" target="_blank">
+                            <img src="img/github-white.png" alt="GitHub Page">
+                        </a>
+                    </div>
+                    <div class="image-box">
+                        <a href="https://www.linkedin.com/in/rohanrajagopalan/" target="_blank">
+                            <img src="img/linkedin-white.png" alt="Linkedin Page">
+                        </a>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 
+
     <footer>
-        <p>&copy; Rohan Rajagopalan 2024. All rights reserved.</p>
+        <p>Version 1.0</p>
+        <p>&copy; 2024 Rohan Rajagopalan</p>
     </footer>
+
+    <script>
+        function copyEmail(email) {
+            navigator.clipboard.writeText(email).then(() => {
+                alert("Email address copied to clipboard: " + email);
+            }).catch(err => {
+                console.error('Failed to copy text: ', err);
+            });
+        }
+    </script>
+
 </body>
 </html>
